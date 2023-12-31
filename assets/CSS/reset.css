@@ -1,0 +1,45 @@
+:root {
+    --sky: #3fd9ff;
+    --dark: #00008b;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+    height: 100vh;
+    color: white;
+}
+main {
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+header {
+    background-image: linear-gradient(to right, var(--sky), var(--dark));
+}
+aside {
+    background-color: rgba(0, 0, 0, 0.45);
+    margin: 4rem;
+    padding: .3rem;
+    border-radius: 5px;
+    height: max-content;
+}
+
+.card {
+    background: var(--dark);
+    padding: 0.5rem;
+}
+.card-body{
+    padding: 0.3rem;
+}
+
+.input-group {
+    flex-direction: column;
+}
+#results {
+    height: 100vh;
+    overflow-y: scroll;
+}
